@@ -3,8 +3,25 @@
 ## Overview
 These are KiCad parts (symbols, footprints, 3D files) downloaded from the internet.
 
+### Table of Contents
+- [Overview](#overview)
+  - [Table of Contents](#table-of-contents)
+- [Directory Structure (OUTDATED)](#directory-structure-outdated)
+- [Add a New Part](#add-a-new-part)
+  - [Download Symbol, Footprint, 3D File](#download-symbol-footprint-3d-file)
+  - [Symbol (schematic)](#symbol-schematic)
+    - [Create a New Symbol Library](#create-a-new-symbol-library)
+    - [Add a Symbol](#add-a-symbol)
+  - [Footprint (layout)](#footprint-layout)
+    - [Create a New Footprint Library](#create-a-new-footprint-library)
+    - [Add a Footprint](#add-a-footprint)
+  - [3D File (visualization)](#3d-file-visualization)
+  - [Linking](#linking)
+    - [Link a Footprint to a Symbol](#link-a-footprint-to-a-symbol)
+    - [Link a 3D Moel to a Footprint](#link-a-3d-moel-to-a-footprint)
 
-## Directory Structure
+
+## Directory Structure (OUTDATED)
 
 `symbols`
 All schematic symbols of file tpye `.kicad_sym` go in here.
@@ -32,8 +49,8 @@ largely ignored, its just maintained for "why not?" reasons.
      - A schematic symbol (`.kicad_mod`)
      - A 3D part file (`.stp`)
 2. Unzip the downloaded `.zip`.
-3. If needed, create a new symbol library (see procedure below).
-4. Add the downloaded symbol to the appropriate library (see procedure below).
+3. If needed, create a new symbol library (see [procedure](#create-a-new-symbol-library) below).
+4. Add the downloaded symbol to the appropriate library (see [procedure](#add-a-symbol) below).
 5. Add the downloaded footprint to the appropriate library
 
 
@@ -52,10 +69,10 @@ Note that the symbol library is itself a `.kicad_sym` file, **not** a directory.
 3. Click `File -> New Library`
 4. Select the **Global** Library Table
 5. In the dialog box
-   a. Select the directory where you're like to save the library
+   1. Select the directory where you're like to save the library
       (e.g. `~/.local/share/kicad/9.0/symbols`)
-   b. Type a new library name of your choosing (e.g. `Custom_Connectors.kicad_sym`)
-   c. Click the `Save` button.
+   2. Type a new library name of your choosing (e.g. `Custom_Connectors.kicad_sym`)
+   3. Click the `Save` button.
 
 _You should now see the library on the `Libraries` sidebar on the lefthand side of the Symbol
 Editor window. Note that libraries are listed in alphabetical order, and you're should appear
@@ -78,6 +95,36 @@ Add a downloaded symbol to an existing library.
    and click the `Open` button.
    - _The symbol should open in Symbol Editor, under the selected symbol library._
 6. Save the symbol library with `Ctrl+S` or `File -> Save`
+
+#### Create a Symbol
+Create a new symbol to an existing library.
+
+1. Open KiCad
+2. Open Symbol Editor
+3. In the `Libraries` sidebar on the left, select the library (e.g. `Custom_Connectors`) to which
+   you'd like to add the new symbol.
+4. With the target library selected, import a new symbol by clicking into
+   `File -> New Symbol...`
+5. In the `New Symbol` dialog, enter the `Symbol name` (part number) and the
+   `Default reference designator` (`J` for connector, `U` for IC, etc.), then click the `OK`
+   button.
+6. Set the grid size to `100` by right-clicking anywhere on the canvas, selecting `Grid` (bottom),
+   then selecting `100 mils (2.54mm)`
+   - 100 mil is a good rool for pin spacing to be consistent with other parts
+7. Move the reference letters off to the side by clicking and dragging from the center of the
+   canvas.
+8. Click the canvas and press the `P` key to open the `Draw Pins` tool.
+9. In the `Pin Properties` dialog, enter the...
+   - Pin name
+   - Pin number
+   - Electrical type (for connectors, select `passive`)
+10. Click the `OK` button, and then place the pin.
+    - Use the `R` key to rotate 90 degress
+    - Use the `X` to flip the pin about the vertical axis (when pin trace is horizontal)
+    - Use the `Y` to flip the pin about the horizontal axis (when pin trace is vertical)
+11. Once pins are dropped, hit the `Esc` key to exit the `Draw Pins` tool.
+12. On the right sidebar, click the `Draw Lines` tool.
+    - Click to drop a line vertex, double-click to finish a shape
 
 
 ### Footprint (layout)
@@ -138,7 +185,7 @@ pointed to by a footprint, and footprints must be linked to symbols.
 6. Click the `OK` button to exit the `Library Symbol Properties` dialog.
 7. Save the updated footprint by clicking the save icon, or with `Ctrl+S`.
 
-#### Link a 3D Moel to a Footprint
+#### Link a 3D Model to a Footprint
 1. Open KiCad
 2. Open the Footprint Editor
 3. In the `Libraries` sidebar on the left, expand the library (e.g. `Custom_Connectors`) and select
