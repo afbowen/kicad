@@ -1,0 +1,179 @@
+(footprint "FBMH3225HM102NT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.11 -2 0)
+		(layer "F.SilkS")
+		(uuid "61cd464b-c3de-4d2e-b02c-02a1c8c6cd07")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "FBMH3225HM102NT"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "715cf68e-429e-4a24-b62a-962832a21797")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/3722/FBMH3225HM102NT_SS.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86773bc3-4a47-4f83-b5c1-45ca94d74119")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Ferrite bead, 1kOhm @ 100MHz"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a65d72fb-1685-41e4-8c90-286b01af4702")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.52 -1.4)
+		(end 0.52 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd50799b-d534-4927-bbb1-41d6b23ef524")
+	)
+	(fp_line
+		(start -0.52 1.4)
+		(end 0.52 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59412432-c278-4661-9693-58d8e2b5533e")
+	)
+	(fp_line
+		(start -2.355 -1.655)
+		(end 2.355 -1.655)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c6548697-58d2-4769-a793-1a265612a984")
+	)
+	(fp_line
+		(start -2.355 1.655)
+		(end -2.355 -1.655)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea7d4968-91d3-40ef-8ac8-bc060851383a")
+	)
+	(fp_line
+		(start -2.355 1.655)
+		(end 2.355 1.655)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "20ad88bb-e913-49ff-8761-755d118d35d2")
+	)
+	(fp_line
+		(start 2.355 1.655)
+		(end 2.355 -1.655)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef49bd10-cd3f-4fbe-8996-d2d8d72c5318")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end -1.75 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cb205e9-1fc1-415d-9d4a-f4a15f51de5c")
+	)
+	(fp_line
+		(start 1.75 -1.4)
+		(end -1.75 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b7d19b7-e472-4b67-ae08-f3940c09846f")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end -1.75 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "499a2708-947e-4138-bbb6-e42c998b158e")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c4612a2-9d7c-446e-9630-9508eccfbf91")
+	)
+	(pad "1" smd rect
+		(at -1.471 0)
+		(size 1.27 2.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "526ed041-2268-46dc-89de-eac5a112b405")
+	)
+	(pad "2" smd rect
+		(at 1.471 0)
+		(size 1.27 2.81)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a61035f1-cf0f-4632-b1cb-f03e76a6f593")
+	)
+	(embedded_fonts no)
+	(model "/home/adam.bowen/git/kicad/3dmodels/FBMH3225HM102NT.step"
+		(offset
+			(xyz 0 -1.4 1.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
