@@ -5940,7 +5940,7 @@
 		(fields_autoplaced yes)
 		(uuid "52312e93-13e5-46ce-8d2f-9f8d631041e0")
 		(property "Reference" "U7"
-			(at 254 116.205 0)
+			(at 254 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +5948,7 @@
 			)
 		)
 		(property "Value" "ASEK-32.768KHZ-L-R-T"
-			(at 254 118.745 0)
+			(at 254 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6242,6 +6242,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
@@ -6250,6 +6252,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
@@ -7482,19 +7486,23 @@
 		(dnp no)
 		(uuid "d23f5dbc-759a-43d4-bd39-1b05cee6022e")
 		(property "Reference" "J4"
-			(at 176.784 28.702 0)
+			(at 197.104 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "Bus_M.2_Socket_M"
-			(at 213.106 28.956 0)
+			(at 191.262 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify left)
 			)
