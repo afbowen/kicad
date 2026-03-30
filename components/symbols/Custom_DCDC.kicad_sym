@@ -187,24 +187,6 @@
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at 17.78 -2.54 180)
-				(length 5.08)
-				(name "PGND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 		)
 		(symbol "MAX20408AFOF_1_0"
 			(pin power_in line
@@ -225,7 +207,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -17.78 12.7 0)
 				(length 5.08)
 				(name "EN"
@@ -243,7 +225,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -17.78 10.16 0)
 				(length 5.08)
 				(name "VEA"
@@ -279,7 +261,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -17.78 -7.62 0)
 				(length 5.08)
 				(name "LX"
@@ -297,7 +279,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -17.78 -15.24 0)
 				(length 5.08)
 				(name "BST"
@@ -369,7 +351,7 @@
 					)
 				)
 			)
-			(pin input clock
+			(pin passive clock
 				(at 17.78 10.16 180)
 				(length 5.08)
 				(name "SYNC"
@@ -387,7 +369,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 17.78 7.62 180)
 				(length 5.08)
 				(name "BIAS"
@@ -405,7 +387,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 17.78 5.08 180)
 				(length 5.08)
 				(name "FB"
@@ -423,7 +405,25 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 17.78 -5.08 180)
 				(length 5.08)
 				(name "PGND"
@@ -441,7 +441,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 17.78 -7.62 180)
 				(length 5.08)
 				(name "PGND"
@@ -459,7 +459,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 17.78 -10.16 180)
 				(length 5.08)
 				(name "PGND"
@@ -477,7 +477,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 17.78 -15.24 180)
 				(length 5.08)
 				(name "GND"
@@ -695,7 +695,7 @@
 			)
 		)
 		(symbol "TPS2121RUXR_1_0"
-			(pin power_in line
+			(pin input line
 				(at -20.32 7.62 0)
 				(length 5.08)
 				(name "IN1"
@@ -731,7 +731,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -20.32 -5.08 0)
 				(length 5.08)
 				(name "ST"
@@ -749,7 +749,7 @@
 					)
 				)
 			)
-			(pin input clock
+			(pin passive clock
 				(at -20.32 -7.62 0)
 				(length 5.08)
 				(name "SS"
@@ -767,7 +767,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -20.32 -10.16 0)
 				(length 5.08)
 				(name "ILIM"
@@ -785,7 +785,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 20.32 7.62 180)
 				(length 5.08)
 				(name "OUT"
@@ -803,7 +803,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 20.32 5.08 180)
 				(length 5.08)
 				(name "OUT"
@@ -821,7 +821,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 20.32 0 180)
 				(length 5.08)
 				(name "GND"
@@ -839,7 +839,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 20.32 -5.08 180)
 				(length 5.08)
 				(name "PR1"
@@ -857,7 +857,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at 20.32 -7.62 180)
 				(length 5.08)
 				(name "CP2"
@@ -875,7 +875,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 20.32 -10.16 180)
 				(length 5.08)
 				(name "OV1"
@@ -893,7 +893,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 20.32 -12.7 180)
 				(length 5.08)
 				(name "OV2"
