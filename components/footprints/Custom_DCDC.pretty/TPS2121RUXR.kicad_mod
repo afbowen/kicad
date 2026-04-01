@@ -303,7 +303,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "d5e15558-3124-4b22-812b-c9f510389110")
 	)
-	(pad "1_1" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -0.4 -0.35)
 		(size 0.3 0.3)
 		(drill 0.2)
@@ -318,7 +318,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "ee5ff8ce-9978-4c85-bce4-c89bfc08174d")
 	)
-	(pad "2_1" thru_hole circle
+	(pad "2" thru_hole circle
 		(at -0.4 0.35)
 		(size 0.3 0.3)
 		(drill 0.2)
@@ -354,14 +354,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "7b195dc6-4a66-4343-8f8d-c779a2868497")
 	)
-	(pad "7" smd roundrect
-		(at 0.675 0.35)
-		(size 1.05 0.4)
-		(layers "F.Cu" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "48a8b321-27f1-4b2e-9401-57f52c3887df")
-	)
-	(pad "7_1" thru_hole circle
+	(pad "7" thru_hole circle
 		(at 0.4 0.35)
 		(size 0.3 0.3)
 		(drill 0.2)
@@ -369,20 +362,27 @@
 		(remove_unused_layers no)
 		(uuid "d03c1d9c-228a-40b8-8f49-0c0fdcce8ee2")
 	)
-	(pad "8" smd roundrect
-		(at 0.675 -0.35)
+	(pad "7" smd roundrect
+		(at 0.675 0.35)
 		(size 1.05 0.4)
 		(layers "F.Cu" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "4f01dadd-7beb-43f7-819d-797484b32593")
+		(uuid "48a8b321-27f1-4b2e-9401-57f52c3887df")
 	)
-	(pad "8_1" thru_hole circle
+	(pad "8" thru_hole circle
 		(at 0.4 -0.35)
 		(size 0.3 0.3)
 		(drill 0.2)
 		(layers "*.Cu")
 		(remove_unused_layers no)
 		(uuid "dd7b924c-25a1-43b0-983a-3ac02e79f622")
+	)
+	(pad "8" smd roundrect
+		(at 0.675 -0.35)
+		(size 1.05 0.4)
+		(layers "F.Cu" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4f01dadd-7beb-43f7-819d-797484b32593")
 	)
 	(pad "9" smd roundrect
 		(at 0.75 -1.15)

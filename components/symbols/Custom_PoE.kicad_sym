@@ -1133,8 +1133,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "EEE-FT1E102UP"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 1.016)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1148,7 +1152,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "EEE-FT1E102UP"
+		(property "Value" "1000uF"
 			(at -6.35 -4.826 0)
 			(effects
 				(font
@@ -1215,45 +1219,31 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Panasonic"
-			(at -0.762 -12.446 0)
+		(property "MPN" "EEE-FT1E102UP"
+			(at 10.922 -4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(symbol "EEE-FT1E102UP_0_0"
-			(rectangle
-				(start -1.173 -1.532)
-				(end -0.284 -1.405)
-				(stroke
-					(width 0.1)
-					(type default)
+		(property "Mfr" "Panasonic"
+			(at 10.414 -5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(fill
-					(type outline)
-				)
+				(hide yes)
 			)
-			(rectangle
-				(start -0.792 -1.913)
-				(end -0.665 -1.024)
-				(stroke
-					(width 0.1)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
+		)
+		(symbol "EEE-FT1E102UP_0_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 0.508 0)
+					(xy -1.524 -1.27) (xy -1.524 -0.762)
 				)
 				(stroke
-					(width 0.1524)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -1262,10 +1252,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.508 2.54) (xy 0.508 0)
+					(xy -1.27 -1.016) (xy -1.778 -1.016)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -1274,22 +1264,10 @@
 			)
 			(polyline
 				(pts
-					(xy 0.508 0) (xy 0.508 -2.54)
+					(xy -0.508 -1.524) (xy -0.508 1.524)
 				)
 				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 0) (xy 1.524 0)
-				)
-				(stroke
-					(width 0.1524)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -1297,49 +1275,51 @@
 				)
 			)
 			(arc
-				(start 2.286 -2.54)
-				(mid 1.4851 0)
-				(end 2.286 2.54)
+				(start 0.762 -1.524)
+				(mid 0.3734 0)
+				(end 0.762 1.524)
 				(stroke
-					(width 0.254)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
+		)
+		(symbol "EEE-FT1E102UP_1_1"
 			(pin passive line
 				(at -2.54 0 0)
-				(length 2.54)
+				(length 2.032)
 				(name "~"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 2.032)
 				(name "~"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)

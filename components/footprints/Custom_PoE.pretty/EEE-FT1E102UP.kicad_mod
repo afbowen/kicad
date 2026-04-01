@@ -367,7 +367,7 @@
 		(uuid "95fedb6d-11b4-417d-8e2b-2b78d8658b69")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/kicad/3dmodels/EEE-FT1E102UP.step"
+	(model "${KIPRJMOD}/../../components/3dmodels/EEE-FT1E102UP.step"
 		(offset
 			(xyz 0 0 1)
 		)

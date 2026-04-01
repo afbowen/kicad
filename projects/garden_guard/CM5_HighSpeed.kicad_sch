@@ -8503,189 +8503,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_1_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -9130,7 +8947,7 @@
 		)
 		(uuid "2dde0647-e11d-4d53-a320-6774f7430092")
 	)
-	(text "3v3 Power LED"
+	(text "CM5 Power LED"
 		(exclude_from_sim no)
 		(at 164.592 108.966 0)
 		(effects
@@ -13490,7 +13307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d66d4e4")
-		(property "Reference" "U18"
+		(property "Reference" "U3"
 			(at 238.76 146.939 0)
 			(effects
 				(font
@@ -13605,7 +13422,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "U18")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13620,7 +13437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d718e31")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR010"
 			(at 222.25 162.56 0)
 			(effects
 				(font
@@ -13670,7 +13487,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR0113")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13685,7 +13502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dcc8bb6")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 231.521 43.2816 0)
 			(effects
 				(font
@@ -13793,7 +13610,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -13808,7 +13625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dcc8bbc")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR011"
 			(at 228.6 54.61 0)
 			(effects
 				(font
@@ -13858,7 +13675,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR0101")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -13873,8 +13690,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dda3560")
-		(property "Reference" "C5"
-			(at 213.741 123.2916 0)
+		(property "Reference" "C1"
+			(at 213.106 123.6726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13882,8 +13699,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 213.741 125.603 0)
+		(property "Value" "10uF"
+			(at 213.106 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13936,7 +13753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "GRM21BR71A106KA73L"
+		(property "MPN" "GRM21BR71A106KA73L"
 			(at 210.82 124.46 0)
 			(effects
 				(font
@@ -13945,7 +13762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Murata"
+		(property "Mfr" "Murata"
 			(at 210.82 124.46 0)
 			(effects
 				(font
@@ -13981,7 +13798,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "C5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13996,7 +13813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e09a5b2")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 232.41 72.2122 90)
 			(effects
 				(font
@@ -14102,7 +13919,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14117,7 +13934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e0adefe")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 232.41 87.63 90)
 			(effects
 				(font
@@ -14223,7 +14040,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -14238,7 +14055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e15bd87")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR02"
 			(at 38.1 157.48 0)
 			(effects
 				(font
@@ -14288,7 +14105,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR0104")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -14303,7 +14120,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e16bb43")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR04"
 			(at 101.6 157.48 0)
 			(effects
 				(font
@@ -14353,7 +14170,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR0105")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14368,7 +14185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e19548d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 119.8118 26.9494 90)
 			(effects
 				(font
@@ -14422,7 +14239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "LTST-S270KGKT"
+		(property "MPN" "LTST-S270KGKT"
 			(at 116.84 27.94 0)
 			(effects
 				(font
@@ -14476,6 +14293,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mfr" "Lite-On Inc."
+			(at 116.84 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd1b2abd-acdb-456a-b12a-78be5659d6b2")
 		)
@@ -14485,7 +14311,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -14623,7 +14449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e28664f")
-		(property "Reference" "R10"
+		(property "Reference" "R5"
 			(at 161.798 124.5616 0)
 			(effects
 				(font
@@ -14731,7 +14557,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "R10")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14895,7 +14721,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e5bd558")
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 152.5778 117.983 90)
 			(effects
 				(font
@@ -14991,7 +14817,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -15006,7 +14832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e5f44e8")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 154.94 91.44 90)
 			(effects
 				(font
@@ -15114,7 +14940,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15225,7 +15051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e5f7d43")
-		(property "Reference" "J7"
+		(property "Reference" "J4"
 			(at 254 107.5182 0)
 			(effects
 				(font
@@ -15362,7 +15188,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15377,7 +15203,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e6c852b")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR09"
 			(at 210.82 138.43 0)
 			(effects
 				(font
@@ -15427,7 +15253,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR0107")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -15442,7 +15268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e6dcb75")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR013"
 			(at 278.13 152.4 0)
 			(effects
 				(font
@@ -15492,7 +15318,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR0108")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15507,7 +15333,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e70fd78")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 36.83 168.5036 0)
 			(effects
 				(font
@@ -15640,7 +15466,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -15655,7 +15481,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e95ca2d")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 121.1072 125.2982 0)
 			(effects
 				(font
@@ -15755,7 +15581,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -15919,7 +15745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ebccb18")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR012"
 			(at 246.38 99.06 0)
 			(effects
 				(font
@@ -15969,7 +15795,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR0109")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15984,7 +15810,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ebf0a51")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR08"
 			(at 207.01 83.82 0)
 			(effects
 				(font
@@ -16034,7 +15860,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR0110")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -16049,7 +15875,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ec0fbf3")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR07"
 			(at 207.01 52.07 0)
 			(effects
 				(font
@@ -16099,7 +15925,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR0111")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -16228,7 +16054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fd45676-ece1-46f4-b6d1-0d78a89f20ca")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 250.19 19.05 0)
 			(effects
 				(font
@@ -16385,7 +16211,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -16511,7 +16337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a52089d-c063-4649-9db3-39a0fd7f55f2")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR01"
 			(at 20.32 196.85 0)
 			(effects
 				(font
@@ -16561,7 +16387,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR029")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -16641,7 +16467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49e3af40-0a2e-4989-bbc5-0edac174f512")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG01"
 			(at 176.53 92.075 0)
 			(effects
 				(font
@@ -16691,7 +16517,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -16702,12 +16528,13 @@
 		(at 154.94 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
-		(uuid "6aeabf3a-c9eb-43e4-983c-5a4d5e9c1160")
-		(property "Reference" "J14"
-			(at 153.035 187.325 0)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "572f8955-7803-48c9-9641-cbc217b28dae")
+		(property "Reference" "J13"
+			(at 157.48 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16715,8 +16542,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_SHBM04B-SRSS-TB"
-			(at 151.384 189.23 0)
+		(property "Value" "Conn_01x04"
+			(at 157.48 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16724,7 +16551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+		(property "Footprint" ""
 			(at 154.94 179.07 0)
 			(effects
 				(font
@@ -16733,7 +16560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 154.94 179.07 0)
 			(effects
 				(font
@@ -16742,7 +16569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 154.94 179.07 0)
 			(effects
 				(font
@@ -16750,68 +16577,23 @@
 				)
 				(hide yes)
 			)
-		)
-		(property "Field4" ""
-			(at 154.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "SHBM04B-SRSS-TB"
-			(at 154.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "SHBM04B-SRSS-TB"
-			(at 154.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "JST"
-			(at 154.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "4 pin vertical 1mm pitch connector"
-			(at 154.94 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d9421e1-a748-4fa7-a9dc-d87a661c0564")
-		)
-		(pin "2"
-			(uuid "efe0c997-9709-4e54-b9b3-bef7f7d6baa0")
-		)
-		(pin "3"
-			(uuid "9b97d13a-bfc1-499e-9b09-38ac7754ef2f")
 		)
 		(pin "4"
-			(uuid "425a3672-f282-4190-91cf-6eed05366832")
+			(uuid "2e4c975d-3b0a-4c12-bbdb-a95df1de4b71")
+		)
+		(pin "3"
+			(uuid "425b449a-2be4-4765-999e-0163066e9aca")
+		)
+		(pin "2"
+			(uuid "6564c5b8-6a2f-49b8-a4d5-3c374830af03")
+		)
+		(pin "1"
+			(uuid "15b18817-d1ff-4df4-b52b-54225a393422")
 		)
 		(instances
-			(project "garden_guard"
+			(project ""
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -16931,7 +16713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "924bea06-b997-42bc-bf53-4f2741b5977f")
-		(property "Reference" "R13"
+		(property "Reference" "R8"
 			(at 251.968 153.7716 0)
 			(effects
 				(font
@@ -17030,7 +16812,148 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "R13")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 160.02 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a26ae11c-760e-4b40-840e-34260434c628")
+		(property "Reference" "D2"
+			(at 162.9918 114.5794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED Green"
+			(at 162.9918 116.8908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" "Digikey "
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTST-S270KGKT"
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "SML-A12M8TT86N"
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "Rohm"
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" "650263301"
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "	Green 572nm LED Indication - Discrete 2.2V 2-SMD, No Lead"
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Lite-On Inc."
+			(at 160.02 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65c946a2-8a10-49f3-b6e5-77e1adf52459")
+		)
+		(pin "2"
+			(uuid "85e4158f-3b87-442b-8bba-79b7a7f95367")
+		)
+		(instances
+			(project "garden_guard"
+				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -17749,7 +17672,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "a747e8fd-28f4-402b-969b-2c8e62ca6408")
-		(property "Reference" "TP3"
+		(property "Reference" "TP1"
 			(at 124.46 38.1 90)
 			(effects
 				(font
@@ -17845,87 +17768,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "LED_1")
-		(lib_id "Device:LED")
-		(at 160.02 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0195ee5-e3c1-4107-9436-7d0711fce88a")
-		(property "Reference" "D1"
-			(at 163.83 115.8874 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED Red"
-			(at 163.83 118.4274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 160.02 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b2d6fe1-c8b3-486b-a75e-43eaa5e0d4db")
-		)
-		(pin "2"
-			(uuid "b3ac493e-e80e-4818-b7b4-ee5b4f7f9e40")
-		)
-		(instances
-			(project "garden_guard"
-				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "D1")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -17940,7 +17783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c672e2f7-0b14-4e8f-be30-ae2f2ea76f84")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 137.668 165.2016 0)
 			(effects
 				(font
@@ -18039,7 +17882,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -18054,7 +17897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "deb12e56-a561-483f-9d63-808f254cde54")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR05"
 			(at 105.41 187.96 0)
 			(effects
 				(font
@@ -18104,7 +17947,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR027")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -18119,7 +17962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f06f18a3-c0e2-4ed0-947a-3f143345d5ab")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR03"
 			(at 77.47 191.77 0)
 			(effects
 				(font
@@ -18169,7 +18012,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "#PWR030")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -18184,7 +18027,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "f6c3817e-cffb-400d-95dc-fec8b67fb2a2")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 129.7178 184.023 90)
 			(effects
 				(font
@@ -18280,7 +18123,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
-					(reference "TP4")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
