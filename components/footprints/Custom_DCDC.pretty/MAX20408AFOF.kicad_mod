@@ -312,7 +312,7 @@
 		(uuid "42fb6cbf-0bb6-4563-a306-73fdc89feead")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/kicad/3dmodels/MAX20408AFOF.step"
+	(model "/home/adam.bowen/git/kicad/components/3dmodels/MAX20408AFOF.step"
 		(offset
 			(xyz 0 0 0)
 		)

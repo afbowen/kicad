@@ -167,7 +167,7 @@
 		(uuid "b4e54bfb-242f-492b-b6fe-dc5c320d1398")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/kicad/3dmodels/CL31A106MAHNNNE.stp"
+	(model "${KIPRJMOD}/../../components/3dmodels/CL31A106MAHNNNE.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -175,7 +175,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

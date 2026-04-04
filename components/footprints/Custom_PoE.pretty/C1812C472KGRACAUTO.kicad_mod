@@ -168,7 +168,7 @@
 		(uuid "d69b09b9-757c-45bc-9214-2fedaf6eb06f")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/kicad/3dmodels/C1812C472KGRACAUTO.stp"
+	(model "${KIPRJMOD}/../../components/3dmodels/C1812C472KGRACAUTO.stp"
 		(offset
 			(xyz 98.1 42.55 -10.5)
 		)

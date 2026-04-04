@@ -17085,6 +17085,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
@@ -17093,6 +17095,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
@@ -17341,7 +17345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5IO:Raspberry-Pi-5-Compute-Module"
+		(property "Footprint" "CM5IO:Raspberry-Pi-5-Compute-Module_tall"
 			(at 214.63 104.14 0)
 			(effects
 				(font

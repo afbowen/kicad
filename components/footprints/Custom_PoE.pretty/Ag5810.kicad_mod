@@ -1496,7 +1496,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/kicad/3dmodels/Ag5810.step"
+	(model "${KIPRJMOD}/../../components/3dmodels/Ag5810.step"
 		(offset
 			(xyz -2 -20.2 0)
 		)

@@ -229,7 +229,7 @@
 		(uuid "224c7df7-c8f4-48da-b979-9a335c2bd1a2")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/kicad/3dmodels/CDBHD2100-G.stp"
+	(model "${KIPRJMOD}/../../components/3dmodels/CDBHD2100-G.stp"
 		(offset
 			(xyz 0 0 0)
 		)

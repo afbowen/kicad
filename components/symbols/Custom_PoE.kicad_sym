@@ -28,7 +28,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Custom_PoE:SOIC127P700X220-8N"
+		(property "Footprint" "Custom_PoE:ACPL-227-50CE"
 			(at 39.37 -94.92 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-(footprint "SOIC127P700X220-8N"
+(footprint "ACPL-227-50CE"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SOIC127P700X220-8N"
+	(property "Value" "ACPL-227-50CE"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -253,7 +253,7 @@
 		(uuid "a1c56d26-590d-4822-ba68-78f0d6121882")
 	)
 	(embedded_fonts no)
-	(model "/home/adam.bowen/git/kicad/3dmodels/ACPL-227-50CE.stp"
+	(model "${KIPRJMOD}/../../components/3dmodels/ACPL-227-50CE.stp"
 		(offset
 			(xyz 0 0 0)
 		)

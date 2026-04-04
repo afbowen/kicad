@@ -8424,7 +8424,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5IO:Raspberry-Pi-5-Compute-Module"
+		(property "Footprint" "CM5IO:Raspberry-Pi-5-Compute-Module_tall"
 			(at 72.39 115.57 0)
 			(effects
 				(font
@@ -9320,7 +9320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "762abbbe-d818-4125-af90-1fc01cd7127f")
-		(property "Reference" "R28"
+		(property "Reference" "R9"
 			(at 139.7 137.414 90)
 			(effects
 				(font
@@ -9399,7 +9399,7 @@
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/ffd8c860-2f3d-4401-ad04-ed468bcbcf5a"
-					(reference "R28")
+					(reference "R9")
 					(unit 1)
 				)
 			)
