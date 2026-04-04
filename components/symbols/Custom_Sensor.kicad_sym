@@ -107,6 +107,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "INA226AQDGSRQ1"
+			(at 6.35 -20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 3.048 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "INA226AQDGSRQ1_1_1"
 			(rectangle
 				(start 5.08 2.54)
