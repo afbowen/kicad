@@ -16762,7 +16762,7 @@
 			(uuid "15b18817-d1ff-4df4-b52b-54225a393422")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/3824b291-1119-4235-959b-f8a35bb4573d"
 					(reference "J3")
 					(unit 1)

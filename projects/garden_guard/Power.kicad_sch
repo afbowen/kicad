@@ -8239,6 +8239,16 @@
 		)
 		(uuid "bd915f4d-19af-4dc2-8b6d-8de0c36090a9")
 	)
+	(label "LX"
+		(at 204.47 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9f23a2d-8d0b-4862-8758-87313bc81025")
+	)
 	(label "+12v_pre_shunt"
 		(at 171.45 31.75 180)
 		(effects
@@ -8832,7 +8842,7 @@
 			(uuid "f8efc15f-836a-4b32-8211-4e499046291f")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "BR1")
 					(unit 1)
@@ -9070,9 +9080,142 @@
 			(uuid "10d4858f-8dd7-4a14-929f-cdbb41e85ce8")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 265.43 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a72299e-1436-4c8d-8a09-42292860799b")
+		(property "Reference" "C27"
+			(at 272.288 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 273.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 265.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 265.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BZ71E475KE15L"
+			(at 265.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 265.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 265.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 265.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Temp" "125"
+			(at 265.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coef" "X7R"
+			(at 265.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "None"
+			(at 265.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c85c6082-0fab-49e9-8e88-aa44f3eec517")
+		)
+		(pin "1"
+			(uuid "11cfca83-4fd3-4940-a2bd-8691d79e245c")
+		)
+		(instances
+			(project "garden_guard"
+				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -9366,7 +9509,7 @@
 			(uuid "cfb20b9f-cbb0-4685-a7a4-63a533453891")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "IC2")
 					(unit 1)
@@ -9786,7 +9929,7 @@
 			(uuid "34f0a30c-9b53-4bb5-a71a-0695128edb11")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "IC1")
 					(unit 1)
@@ -9915,186 +10058,9 @@
 			(uuid "d6bd32d2-8a58-491e-9d51-a6832ca2b76b")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 267.97 50.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c9332dd-93b4-4987-8e12-864c1bd7c946")
-		(property "Reference" "C28"
-			(at 269.24 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 269.24 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 267.97 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 267.97 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM21BR61E226ME44L"
-			(at 267.97 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 267.97 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2d4ee4b1-f523-4045-894a-f0c81b741cd7")
-		)
-		(pin "1"
-			(uuid "a23fcc34-50d8-423c-9352-cf52dd03f617")
-		)
-		(instances
-			(project "garden_guard"
-				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 191.77 27.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4076f1ab-86b4-4f39-bad5-27a47166f6ba")
-		(property "Reference" "C21"
-			(at 189.23 26.6762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 189.23 29.2162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 191.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 191.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R61E475KE11D"
-			(at 191.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 191.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d201486c-7fa3-4839-be4a-9d13bab04fa6")
-		)
-		(pin "1"
-			(uuid "11aa1e52-cc9b-48ab-97e9-0b4f0cd6aa25")
-		)
-		(instances
-			(project "garden_guard"
-				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10470,7 +10436,7 @@
 			(uuid "cbd492cb-7e11-4b7c-97ee-6e0e6f66995a")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "FB1")
 					(unit 1)
@@ -11318,94 +11284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 262.89 50.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70af3fbc-35b7-4783-8643-afa6c098fa49")
-		(property "Reference" "C26"
-			(at 264.16 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 264.16 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 262.89 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 262.89 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM21BR61E226ME44L"
-			(at 262.89 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 262.89 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7bc55bbf-a0ef-4818-bce4-5c6d030b83f7")
-		)
-		(pin "1"
-			(uuid "f1fcac8a-2410-489d-a7c1-900d94dc4063")
-		)
-		(instances
-			(project "garden_guard"
-				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 261.62 140.97 0)
 		(unit 1)
@@ -11487,6 +11365,270 @@
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 273.05 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75ae9002-68b7-4b3d-898c-b29b407c622a")
+		(property "Reference" "C29"
+			(at 271.526 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 270.764 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM219R71E224KA01D"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Temp" "125"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coef" "X7R"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "None"
+			(at 273.05 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b27af6e-bee6-4321-9679-2ad1ea2d6635")
+		)
+		(pin "1"
+			(uuid "1cfc1064-af3c-469b-9fd0-ffc7c37df823")
+		)
+		(instances
+			(project "garden_guard"
+				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 278.13 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76222fb9-d758-4608-9482-40846aacb01a")
+		(property "Reference" "C30"
+			(at 276.606 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 275.844 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM219R71E224KA01D"
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Temp" "125"
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coef" "X7R"
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "None"
+			(at 278.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6151c812-2e1a-4d2d-9a74-0329ffe4719e")
+		)
+		(pin "1"
+			(uuid "0537cce4-317a-4298-af70-ff8ef6ddc8bd")
+		)
+		(instances
+			(project "garden_guard"
+				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -11815,16 +11957,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 278.13 50.8 0)
-		(mirror y)
+		(at 267.97 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8aa048b8-3e19-4620-8960-bb660c9a63f6")
-		(property "Reference" "C30"
-			(at 279.4 56.642 0)
+		(uuid "8ae59cc9-ead4-4603-9af3-fe7aa2e4513a")
+		(property "Reference" "C28"
+			(at 266.446 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,7 +11974,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 279.4 59.182 0)
+			(at 265.684 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11841,8 +11982,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 278.13 50.8 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 267.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11851,7 +11992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.13 50.8 0)
+			(at 267.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,8 +12000,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 278.13 50.8 0)
+		(property "Description" ""
+			(at 267.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11868,8 +12009,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61E226ME44L"
-			(at 278.13 50.8 0)
+		(property "MPN" "GRM219R71E224KA01D"
+			(at 267.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11878,7 +12019,52 @@
 			)
 		)
 		(property "Mfr" "Murata Electronics"
-			(at 278.13 50.8 0)
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Temp" "125"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coef" "X7R"
+			(at 267.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "None"
+			(at 267.97 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11887,15 +12073,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1b973366-f0c3-45d5-a84f-b221968c9b63")
+			(uuid "84a02c29-a54f-487b-aafe-5beb614ef120")
 		)
 		(pin "1"
-			(uuid "5ddf2d52-f963-443a-96bb-5ec935f1c0ac")
+			(uuid "a50415b1-e14c-4c6a-986f-68eea96026b4")
 		)
 		(instances
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
-					(reference "C30")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -12075,7 +12261,7 @@
 			(uuid "ac5bb0e5-49a2-46a9-8eab-14aef3628724")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "D4")
 					(unit 1)
@@ -12330,9 +12516,141 @@
 			(uuid "b31a5692-e253-4ed0-bf3a-bdc80ed080d1")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 191.77 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93852a8b-b79b-4de5-8f90-6e79ecd5d5bd")
+		(property "Reference" "C21"
+			(at 184.912 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 184.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM21BZ71E475KE15L"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Temp" "125"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coef" "X7R"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "None"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8192980a-afd3-4e3b-bdd7-1e55aedfdaed")
+		)
+		(pin "1"
+			(uuid "eb0a3b38-c13f-4cf5-ad75-edcbffb4ddcc")
+		)
+		(instances
+			(project "garden_guard"
+				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -12365,7 +12683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 260.35 27.94 0)
 			(effects
 				(font
@@ -12560,93 +12878,6 @@
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 265.43 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a546081c-4ce3-498a-a997-dfdef4ae7c64")
-		(property "Reference" "C27"
-			(at 267.97 26.6762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 267.97 29.2162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 265.43 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 265.43 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM188R61E475KE11D"
-			(at 265.43 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 265.43 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "81a22825-cf9f-488d-9fab-85546529dfcb")
-		)
-		(pin "1"
-			(uuid "2bd6eaac-9038-4ea6-b6c3-be3f67b0a5b1")
-		)
-		(instances
-			(project "garden_guard"
-				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -12897,7 +13128,7 @@
 			(uuid "96955ed2-f8dc-4a96-8062-3f2770dacada")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "R19")
 					(unit 1)
@@ -12999,7 +13230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.85 27.94 0)
 			(effects
 				(font
@@ -13381,7 +13612,7 @@
 			(uuid "161fe9c1-62ce-4e26-a9e8-927da93bd643")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "L2")
 					(unit 1)
@@ -13694,7 +13925,7 @@
 			(uuid "f1b615db-cbe7-478f-97b4-331a90f653ba")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "U9")
 					(unit 1)
@@ -14158,7 +14389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 256.54 38.1 0)
 			(effects
 				(font
@@ -14210,7 +14441,7 @@
 			(uuid "2a3b0e2b-579f-4e91-a672-8e77e89f51b0")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "C24")
 					(unit 1)
@@ -14364,6 +14595,138 @@
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "FB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 262.89 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d57d9adf-f147-4035-a510-7df737dfc47c")
+		(property "Reference" "C26"
+			(at 261.366 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 260.604 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM219R71E224KA01D"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Murata Electronics"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Max Temp" "125"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temp Coef" "X7R"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "None"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "515d52d7-12e7-4996-8f82-da9b1f5c2b16")
+		)
+		(pin "1"
+			(uuid "9f76d2cc-e2a3-4119-b2f2-531e24643f88")
+		)
+		(instances
+			(project "garden_guard"
+				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -14611,7 +14974,7 @@
 			(uuid "1f5172e7-c7e9-4f87-8e03-900a82145499")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "U10")
 					(unit 1)
@@ -15032,94 +15395,6 @@
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 273.05 50.8 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ece1d0bc-35d3-42bf-ab68-6fc751918ea6")
-		(property "Reference" "C29"
-			(at 274.32 56.642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 274.32 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM21BR61E226ME44L"
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Murata Electronics"
-			(at 273.05 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "003dd5a5-8e23-4664-9950-dc70736441bc")
-		)
-		(pin "1"
-			(uuid "9c00aaa0-4603-4ab8-be9e-de699b140a4d")
-		)
-		(instances
-			(project "garden_guard"
-				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
-					(reference "C29")
 					(unit 1)
 				)
 			)

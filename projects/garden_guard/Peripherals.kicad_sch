@@ -3720,7 +3720,7 @@
 			(uuid "dcc99229-9718-475f-ae1a-c1a71622ee7a")
 		)
 		(instances
-			(project ""
+			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/a6939206-369a-404c-88f4-a3b15aa53ce8"
 					(reference "JP1")
 					(unit 1)
