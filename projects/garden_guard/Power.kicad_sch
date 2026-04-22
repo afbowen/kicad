@@ -2071,7 +2071,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Custom_PoE:SOIC127P700X220-8N"
+			(property "Footprint" "Custom_PoE:ACPL-227-50CE"
 				(at 39.37 -94.92 0)
 				(effects
 					(font
@@ -2945,7 +2945,7 @@
 				)
 			)
 			(property "MPN" "EEE-FT1E102UP"
-				(at 10.922 -4.064 0)
+				(at -1.27 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2954,7 +2954,7 @@
 				)
 			)
 			(property "Mfr" "Panasonic"
-				(at 10.414 -5.588 0)
+				(at 11.684 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4162,7 +4162,7 @@
 				)
 			)
 			(property "MPN" "EEE-FT1E102UP"
-				(at 10.922 -4.064 0)
+				(at -1.27 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4171,7 +4171,7 @@
 				)
 			)
 			(property "Mfr" "Panasonic"
-				(at 10.414 -5.588 0)
+				(at 11.684 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)

@@ -1028,6 +1028,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 46.99) (xy 125.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bff3eb2-a370-495f-951a-0ce6cd5efe44")
+	)
+	(wire
+		(pts
 			(xy 81.28 107.95) (xy 81.28 111.76)
 		)
 		(stroke
@@ -1355,6 +1365,16 @@
 			(justify left bottom)
 		)
 		(uuid "64edb454-bd53-4a56-9251-88a42c897fac")
+	)
+	(label "+5v"
+		(at 119.38 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88814595-d718-4f1f-9c28-9e914431b97f")
 	)
 	(label "+5v"
 		(at 203.2 116.84 0)
@@ -3488,6 +3508,16 @@
 		(pin "CAM_GPIO1" input
 			(at 162.56 95.25 270)
 			(uuid "80345c3a-7ca9-4f7c-806d-25a358c54076")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5v" input
+			(at 125.73 46.99 180)
+			(uuid "f467c447-9546-46b3-8b39-7da4daf08c8b")
 			(effects
 				(font
 					(size 1.27 1.27)

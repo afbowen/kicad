@@ -1235,198 +1235,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom_Switch:VS-12CWQ04FN-M3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 3.81 7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.254)
-						(bold yes)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "VS-12CWQ04FN-M3"
-				(at 3.81 4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.254)
-						(bold yes)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Custom_Switch:VS-12CWQ04FN-M3"
-				(at 19.05 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/93286/vs-12cwq04f.pdf"
-				(at 19.05 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode, Schottky, 40V, 12A"
-				(at 1.524 -7.874 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "2"
-				(at 19.05 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "78-VS-12CWQ04FN-M3"
-				(at 19.05 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-12CWQ04FN-M3?qs=9h5moqLwYqS9U%2FX40N%252B%2FKg%3D%3D"
-				(at 19.05 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 19.05 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "VS-12CWQ04FN-M3"
-				(at 19.05 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "MPN" "VS-12CWQ04FN-M3"
-				(at 12.192 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr" "Vishay"
-				(at -3.048 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VS-12CWQ04FN-M3_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 17.78 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "A_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "A_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 22.86 0 180)
-					(length 5.08)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DMN2028USS-13_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1830,6 +1638,156 @@
 					(at 0 -2.54 90)
 					(length 1.016)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SS34"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS34"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 3A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS34_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS34_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2258,7 +2216,7 @@
 		)
 		(uuid "1a8c67b3-b25a-4f27-9f4a-52533223d483")
 	)
-	(text "Solenoid Output Output"
+	(text "Solenoid Output"
 		(exclude_from_sim no)
 		(at 143.002 115.316 0)
 		(effects
@@ -2369,6 +2327,12 @@
 		(uuid "6419dbe3-dd3d-49ac-bbfb-ed8c189a9c8c")
 	)
 	(junction
+		(at 190.5 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69da6e6c-16d9-494d-9567-4e28a908a530")
+	)
+	(junction
 		(at 111.76 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2379,12 +2343,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "798bc6fe-0230-4f80-bcf3-342bc121d0e2")
-	)
-	(junction
-		(at 130.81 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93642685-c69f-4c70-ad84-1afd2f82ce95")
 	)
 	(junction
 		(at 127 53.34)
@@ -2409,6 +2367,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e46dff4-1aa2-477d-b334-85e2e239b619")
+	)
+	(junction
+		(at 130.81 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7cc89f7-ddf5-4dbc-9eed-e5f725e3927e")
 	)
 	(junction
 		(at 127 55.88)
@@ -2447,12 +2411,6 @@
 		(uuid "bf03a17c-2774-44c4-a2e6-344fd36c0156")
 	)
 	(junction
-		(at 190.5 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf978aa4-535a-435b-bd63-cdb3e751ff88")
-	)
-	(junction
 		(at 158.75 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2469,12 +2427,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd8593b9-b596-4c9f-8bda-ab00589f66f1")
-	)
-	(junction
-		(at 158.75 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fecf7c9a-4137-4d0a-bd31-300f29e0a858")
 	)
 	(wire
 		(pts
@@ -2515,16 +2467,6 @@
 			(type default)
 		)
 		(uuid "0c56b4ea-8021-43d1-9ba0-4147e3d830d8")
-	)
-	(wire
-		(pts
-			(xy 156.21 138.43) (xy 158.75 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ca68808-36bb-4fc8-a252-fe6b0f5da01e")
 	)
 	(wire
 		(pts
@@ -2595,26 +2537,6 @@
 			(type default)
 		)
 		(uuid "21347157-a988-4de3-b8dd-eaf62409cb99")
-	)
-	(wire
-		(pts
-			(xy 190.5 77.47) (xy 190.5 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2346ee45-42e8-4d8d-b8b6-442242feb8ce")
-	)
-	(wire
-		(pts
-			(xy 158.75 138.43) (xy 158.75 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24059658-6fcf-4ef6-bc69-f2f10f3addb7")
 	)
 	(wire
 		(pts
@@ -2705,6 +2627,16 @@
 			(type default)
 		)
 		(uuid "353278a9-a989-4ed7-ae7e-c786f9cb86cd")
+	)
+	(wire
+		(pts
+			(xy 128.27 152.4) (xy 128.27 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e4c6ac-35c1-47bb-af12-c51c480147ac")
 	)
 	(wire
 		(pts
@@ -3098,6 +3030,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 73.66) (xy 187.96 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc96e3f5-72e2-4817-b296-f0cb116693ec")
+	)
+	(wire
+		(pts
 			(xy 218.44 80.01) (xy 218.44 77.47)
 		)
 		(stroke
@@ -3168,7 +3110,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 135.89) (xy 133.35 135.89)
+			(xy 128.27 151.13) (xy 130.81 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fabc81-7d20-4213-a9ae-d8d45173c8fd")
+	)
+	(wire
+		(pts
+			(xy 127 135.89) (xy 140.97 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3198,13 +3150,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 156.21) (xy 130.81 158.75)
+			(xy 148.59 135.89) (xy 158.75 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d49e8f73-7000-4b1f-b29b-7c5c87382ddf")
+		(uuid "d4572419-ebcd-4898-9f92-d89c78e224d1")
+	)
+	(wire
+		(pts
+			(xy 187.96 72.39) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbdd4181-b875-45a6-b802-8cc03c18f930")
 	)
 	(wire
 		(pts
@@ -3238,7 +3200,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 135.89) (xy 158.75 138.43)
+			(xy 158.75 135.89) (xy 158.75 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3335,16 +3297,6 @@
 			(type default)
 		)
 		(uuid "fa824c04-9a5b-432e-a44d-5e2a8f148305")
-	)
-	(wire
-		(pts
-			(xy 156.21 135.89) (xy 158.75 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb6e446e-8e6a-424d-bad2-2cf6ba404d77")
 	)
 	(wire
 		(pts
@@ -3594,6 +3546,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 128.27 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "001b5f16-8ab6-450f-8e3d-06616b645004")
+		(property "Reference" "#PWR055"
+			(at 128.27 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 126.238 155.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce982452-d9eb-4e3f-bc94-58828181d9d7")
+		)
+		(instances
+			(project "garden_guard"
+				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/a6939206-369a-404c-88f4-a3b15aa53ce8"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 127 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3729,6 +3746,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 187.96 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3559ed4c-93ab-44a7-9517-a2d645ab5bf6")
+		(property "Reference" "#PWR054"
+			(at 187.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.928 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7941e153-b0d5-4ea3-85be-34ec00e9b251")
+		)
+		(instances
+			(project "garden_guard"
+				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/a6939206-369a-404c-88f4-a3b15aa53ce8"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 185.42 80.01 270)
 		(unit 1)
@@ -3738,7 +3820,7 @@
 		(dnp no)
 		(uuid "443f9472-ad4e-4205-b8f2-793845f75d81")
 		(property "Reference" "R26"
-			(at 184.658 74.93 90)
+			(at 184.404 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3746,7 +3828,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 184.658 77.216 90)
+			(at 184.404 84.836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,151 +4330,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_Switch:VS-12CWQ04FN-M3")
-		(at 156.21 135.89 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "78b6956f-2f92-47fe-b16a-7f8c91b299fc")
-		(property "Reference" "D5"
-			(at 144.78 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "VS-12CWQ04FN-M3"
-			(at 144.78 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "Custom_Switch:VS-12CWQ04FN-M3"
-			(at 137.16 230.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/93286/vs-12cwq04f.pdf"
-			(at 137.16 330.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, Schottky, 40V, 12A"
-			(at 154.686 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2"
-			(at 137.16 530.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "78-VS-12CWQ04FN-M3"
-			(at 137.16 630.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/VS-12CWQ04FN-M3?qs=9h5moqLwYqS9U%2FX40N%252B%2FKg%3D%3D"
-			(at 137.16 730.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 137.16 830.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "VS-12CWQ04FN-M3"
-			(at 137.16 930.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" "VS-12CWQ04FN-M3"
-			(at 144.018 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Vishay"
-			(at 159.258 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1f85eda-530b-4006-bdb2-1fbca68bb49d")
-		)
-		(pin "3"
-			(uuid "6e40a930-d9fa-44b8-955a-ccafcb6127bc")
-		)
-		(pin "4"
-			(uuid "133e01f3-faf6-499f-8c19-85c9b62803be")
-		)
-		(instances
-			(project "garden_guard"
-				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/a6939206-369a-404c-88f4-a3b15aa53ce8"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 190.5 88.9 0)
 		(unit 1)
@@ -4621,10 +4558,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c0bfef9-ed31-44a2-bc80-56e70db8a021")
 		(property "Reference" "R24"
-			(at 125.73 152.4 90)
+			(at 123.19 162.306 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4568,7 @@
 			)
 		)
 		(property "Value" "100Ω"
-			(at 125.73 154.94 90)
+			(at 123.19 164.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,6 +4807,74 @@
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/a6939206-369a-404c-88f4-a3b15aa53ce8"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS34")
+		(at 144.78 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6985f35-4c86-4220-8bf6-9c0bcd22b504")
+		(property "Reference" "D6"
+			(at 144.4625 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 144.4625 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 144.78 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 144.78 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 144.78 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7264a69-91e8-407d-bb08-137b249c3264")
+		)
+		(pin "1"
+			(uuid "07a0a864-4621-4ab6-861c-23891b2b7398")
+		)
+		(instances
+			(project ""
+				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/a6939206-369a-404c-88f4-a3b15aa53ce8"
+					(reference "D6")
 					(unit 1)
 				)
 			)
