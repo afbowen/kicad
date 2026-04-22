@@ -8049,6 +8049,16 @@
 		)
 		(uuid "3917cbe9-956a-4c0d-b988-d2984797eee2")
 	)
+	(label "+5v_usb"
+		(at 54.61 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ddefc87-b2ea-443f-af1f-f4632b885103")
+	)
 	(label "+5v"
 		(at 172.72 124.46 0)
 		(effects
@@ -8108,16 +8118,6 @@
 			(justify left bottom)
 		)
 		(uuid "638f1de0-7115-4fcd-ae26-9c3325ba6d97")
-	)
-	(label "+5v"
-		(at 53.34 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a27f213-ee96-4f60-91b1-4a1cd042638a")
 	)
 	(label "+5v_usb"
 		(at 46.99 138.43 0)
@@ -12113,7 +12113,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.31 144.78 0)
 			(effects
 				(font
