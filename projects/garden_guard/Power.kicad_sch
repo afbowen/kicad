@@ -4498,7 +4498,7 @@
 	)
 	(rectangle
 		(start 200.66 123.19)
-		(end 276.86 162.56)
+		(end 279.4 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -4940,12 +4940,6 @@
 		(uuid "1ee66f57-8c6a-4a64-90fe-e42b9b15fcb5")
 	)
 	(junction
-		(at 171.45 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ef21f2e-e0d6-4746-910b-4e6ae9426fa4")
-	)
-	(junction
 		(at 93.98 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5160,6 +5154,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfb84b0c-4087-4894-a6d2-fefb93fa2ae8")
+	)
+	(junction
+		(at 271.78 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0573e82-72d3-44f1-a703-34977071de0d")
 	)
 	(junction
 		(at 162.56 139.7)
@@ -5731,7 +5731,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 124.46) (xy 177.8 124.46)
+			(xy 166.37 124.46) (xy 182.88 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6661,16 +6661,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 124.46) (xy 171.45 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fc094c1-728f-4338-bc6e-b06a4d52708b")
-	)
-	(wire
-		(pts
 			(xy 210.82 26.67) (xy 209.55 26.67)
 		)
 		(stroke
@@ -7341,6 +7331,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 147.32) (xy 273.05 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c0227b-babb-43ae-9bc8-6477e57357d6")
+	)
+	(wire
+		(pts
 			(xy 86.36 59.69) (xy 90.17 59.69)
 		)
 		(stroke
@@ -7781,7 +7781,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 147.32) (xy 269.24 147.32)
+			(xy 261.62 147.32) (xy 271.78 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8059,16 +8059,6 @@
 		)
 		(uuid "3ddefc87-b2ea-443f-af1f-f4632b885103")
 	)
-	(label "+5v"
-		(at 172.72 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d98b19d-c899-4ac5-852d-73d1b70d438e")
-	)
 	(label "+3.3v"
 		(at 107.95 130.81 0)
 		(effects
@@ -8078,6 +8068,16 @@
 			(justify left bottom)
 		)
 		(uuid "4e0dcb68-a792-449c-9f97-fbac3ffa4914")
+	)
+	(label "+5v_pre_shunt"
+		(at 182.88 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e10fe45-fb58-46db-90ee-99dc6b19338b")
 	)
 	(label "+5v_pre_shunt"
 		(at 246.38 133.35 0)
@@ -8342,6 +8342,17 @@
 		)
 		(uuid "26dae65f-ffa5-405a-8227-873c291ba921")
 	)
+	(hierarchical_label "+5v"
+		(shape output)
+		(at 273.05 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c930e72-7d66-455d-91d4-1ba253d37b61")
+	)
 	(hierarchical_label "SCL1"
 		(shape input)
 		(at 217.17 106.68 180)
@@ -8418,17 +8429,6 @@
 			(justify left)
 		)
 		(uuid "8ef3ac21-c5fc-4484-85f4-32c3bf4f2d67")
-	)
-	(hierarchical_label "+5v"
-		(shape output)
-		(at 177.8 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9bf15816-9f6b-433e-9ea0-d1ab8a3fda30")
 	)
 	(hierarchical_label "PoE+_actv"
 		(shape output)
@@ -8851,6 +8851,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 261.62 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14368980-ec66-418a-9dd4-98055265b7aa")
+		(property "Reference" "R23"
+			(at 263.906 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5mΩ"
+			(at 263.652 140.7161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRE2512-FZ-R005E-3"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "Bourns"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C840612"
+			(at 261.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d86c6606-55ec-468e-be38-b80c030928b0")
+		)
+		(pin "2"
+			(uuid "eb854684-1410-4dad-b632-b466f61c6309")
+		)
+		(instances
+			(project "garden_guard"
+				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 153.67 31.75 0)
 		(unit 1)
@@ -9028,7 +9124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 261.62 95.25 0)
 			(effects
 				(font
@@ -9055,7 +9151,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-3LWFR005V"
+		(property "MPN" "CRE2512-FZ-R005E-3"
 			(at 261.62 95.25 0)
 			(effects
 				(font
@@ -9064,7 +9160,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Panasonic"
+		(property "Mfr" "Bourns"
+			(at 261.62 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C840612"
 			(at 261.62 95.25 0)
 			(effects
 				(font
@@ -11278,93 +11383,6 @@
 			(project "garden_guard"
 				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 261.62 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73b29321-79ec-431e-a026-8963053ebc86")
-		(property "Reference" "R23"
-			(at 264.16 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5mΩ"
-			(at 263.906 141.732 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 261.62 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 261.62 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 261.62 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-3LWFR005V"
-			(at 261.62 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr" "Panasonic"
-			(at 261.62 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "157d889f-bf57-49a5-b6a1-fac77a34d5e2")
-		)
-		(pin "2"
-			(uuid "af679447-3159-480e-a104-b54a19df3fd3")
-		)
-		(instances
-			(project "garden_guard"
-				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/446b5b12-2582-472d-9a1e-c1c7d43f42d1"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -15090,7 +15108,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 171.45 124.46 0)
+		(at 271.78 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15098,7 +15116,7 @@
 		(dnp no)
 		(uuid "e29f90e6-95c9-47ab-87ac-83ba2d8d078c")
 		(property "Reference" "#FLG05"
-			(at 171.45 122.555 0)
+			(at 271.78 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15107,7 +15125,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 171.45 120.65 0)
+			(at 273.05 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15115,7 +15133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 124.46 0)
+			(at 271.78 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15124,7 +15142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 124.46 0)
+			(at 271.78 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15133,7 +15151,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 171.45 124.46 0)
+			(at 271.78 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
