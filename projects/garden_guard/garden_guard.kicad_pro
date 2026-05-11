@@ -634,7 +634,7 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -656,8 +656,20 @@
         },
         {
           "group_by": false,
+          "label": "Critical",
+          "name": "Critical",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "MPN",
           "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Class",
+          "name": "Class",
           "show": true
         },
         {
@@ -668,33 +680,45 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB_PN",
+          "name": "JLCPCB_PN",
           "show": true
         },
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -830,9 +854,15 @@
         },
         {
           "group_by": false,
+          "label": "Dielectric_Class",
+          "name": "Dielectric_Class",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Package",
           "name": "Package",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -884,12 +914,6 @@
         },
         {
           "group_by": false,
-          "label": "Tolerance",
-          "name": "Tolerance",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Availability",
           "name": "Availability",
           "show": false
@@ -902,8 +926,44 @@
         },
         {
           "group_by": false,
-          "label": "Voltage",
-          "name": "Voltage",
+          "label": "Rating",
+          "name": "Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max Temp",
+          "name": "Max Temp",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temp Coef",
+          "name": "Temp Coef",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part_Class",
+          "name": "Part_Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC_Status",
+          "name": "JLC_Status",
           "show": false
         }
       ],
@@ -912,7 +972,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "MPN"
+      "sort_field": "Mouser Price/Stock"
     },
     "connection_grid_size": 50.0,
     "drawing": {
