@@ -656,20 +656,14 @@
         },
         {
           "group_by": false,
-          "label": "Critical",
-          "name": "Critical",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "MPN",
           "name": "MPN",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Class",
-          "name": "Class",
+          "label": "JLCPCB_PN",
+          "name": "JLCPCB_PN",
           "show": true
         },
         {
@@ -680,20 +674,26 @@
         },
         {
           "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Tolerance",
-          "name": "Tolerance",
+          "label": "Package",
+          "name": "Package",
           "show": true
         },
         {
           "group_by": false,
-          "label": "JLCPCB_PN",
-          "name": "JLCPCB_PN",
+          "label": "Tolerance",
+          "name": "Tolerance",
           "show": true
         },
         {
@@ -860,12 +860,6 @@
         },
         {
           "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Packaging",
           "name": "Packaging",
           "show": false
@@ -874,12 +868,6 @@
           "group_by": false,
           "label": "Part Description",
           "name": "Part Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Power",
-          "name": "Power",
           "show": false
         },
         {
@@ -950,6 +938,18 @@
         },
         {
           "group_by": false,
+          "label": "Class",
+          "name": "Class",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Critical",
+          "name": "Critical",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Dielectric",
           "name": "Dielectric",
           "show": false
@@ -965,6 +965,12 @@
           "label": "JLC_Status",
           "name": "JLC_Status",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -972,7 +978,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Mouser Price/Stock"
+      "sort_field": "JLCPCB_PN"
     },
     "connection_grid_size": 50.0,
     "drawing": {
