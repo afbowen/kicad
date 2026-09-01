@@ -240,7 +240,7 @@ def main() -> None:
 
 
 def jlcpcb_search_url(query: str) -> str:
-    return f"https://jlcpcb.com/parts/componentSearch?searchTxt=={quote_plus(query)}"
+    return f"https://jlcpcb.com/parts/componentSearch?searchTxt={quote_plus(query)}"
 
 
 if __name__ == "__main__":

@@ -6316,6 +6316,10 @@
 		(uuid "c306f072-8f9e-4f15-8906-6e25fb585c33")
 	)
 	(no_connect
+		(at 100.33 27.94)
+		(uuid "c589014b-2a83-4ffd-8125-7968454b063b")
+	)
+	(no_connect
 		(at 39.37 109.22)
 		(uuid "d114c949-d857-4d56-b42b-5c15a9e671f0")
 	)
@@ -7919,16 +7923,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 27.94) (xy 100.33 27.94)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "c7582f4f-843c-427b-9ce7-556d300d60db")
-	)
-	(wire
-		(pts
 			(xy 100.33 76.2) (xy 116.84 76.2)
 		)
 		(stroke
@@ -9257,17 +9251,6 @@
 			(justify left)
 		)
 		(uuid "014301c9-4a9a-470e-9e0d-d2ae30a23975")
-	)
-	(hierarchical_label "USBOTG_ID"
-		(shape input)
-		(at 106.68 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "03e96c4e-0c5a-40c7-be24-532129cddde3")
 	)
 	(hierarchical_label "+3.3v"
 		(shape input)

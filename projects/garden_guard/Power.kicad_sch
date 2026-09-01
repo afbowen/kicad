@@ -13958,8 +13958,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "+5v_TP"
-			(at 123.952 183.388 0)
+		(property "Value" "5V"
+			(at 127 183.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13967,7 +13967,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 123.19 176.53 0)
 			(effects
 				(font
@@ -14572,8 +14572,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12V_PGOOD_TP"
-			(at 220.98 72.898 0)
+		(property "Value" "POE"
+			(at 225.552 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14581,7 +14581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 222.25 66.04 0)
 			(effects
 				(font
@@ -14899,8 +14899,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "+3v3_TP"
-			(at 131.572 183.388 0)
+		(property "Value" "3.3V"
+			(at 133.858 183.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14908,7 +14908,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 130.81 176.53 0)
 			(effects
 				(font
@@ -15557,8 +15557,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "+12v_TP"
-			(at 115.062 183.388 0)
+		(property "Value" "12V"
+			(at 117.094 183.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15566,7 +15566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 114.3 176.53 0)
 			(effects
 				(font

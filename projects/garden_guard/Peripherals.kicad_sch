@@ -4103,7 +4103,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "6577234a-91a8-4222-aa86-fc4b967c36a7")
 		(property "Reference" "J9"
@@ -4122,7 +4122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical_SMD"
 			(at 118.11 48.26 0)
 			(effects
 				(font
@@ -4441,7 +4441,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6a768817-6352-4462-b4c1-c82a898e1561")
@@ -4461,7 +4461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
 			(at 57.15 45.72 0)
 			(effects
 				(font

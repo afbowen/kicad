@@ -521,113 +521,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Custom_Connector:M.2_Socket_(2230)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2877,12 +2770,6 @@
 		(uuid "23dd2a3a-b8ef-405c-85d3-ef75b19fb612")
 	)
 	(junction
-		(at 240.03 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24fa2b64-d86b-48cf-99e5-97e24e65fe7e")
-	)
-	(junction
 		(at 106.68 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3502,23 +3389,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 71.12) (xy 240.03 76.2)
+			(xy 240.03 68.58) (xy 240.03 76.2)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(uuid "4749a833-6cd7-439e-ba20-fbc963316941")
-	)
-	(wire
-		(pts
-			(xy 240.03 71.12) (xy 240.03 68.58)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "4a8b6075-7973-48f5-a3cd-36887f3b66b0")
 	)
 	(wire
 		(pts
@@ -3529,16 +3406,6 @@
 			(type default)
 		)
 		(uuid "4d7f4af0-969e-4f3a-a498-89fe151c9a6f")
-	)
-	(wire
-		(pts
-			(xy 240.03 71.12) (xy 246.38 71.12)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "4f5565c1-5848-4b65-a8c1-5c2977120cf9")
 	)
 	(polyline
 		(pts
@@ -4567,144 +4434,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 246.38 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "0d6db532-f0dd-4c0d-bf0a-0aec728b6d4b")
-		(property "Reference" "TP5"
-			(at 247.65 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 245.11 73.025 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 246.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 246.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" "nf"
-			(at 246.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 246.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 246.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 246.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Test point"
-			(at 246.38 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" ""
-			(at 246.38 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric_Class" ""
-			(at 246.38 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Color" ""
-			(at 246.38 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e831905a-7b9e-4294-8828-513615b4d74f")
-		)
-		(instances
-			(project "garden_guard"
-				(path "/dcdac9d4-ef08-426f-b97c-7b9219501e71/5751e26b-0975-4f8f-84d7-7785f65d80bc"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 43.18 175.26 0)
 		(mirror y)
@@ -5645,7 +5374,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "48660da5-a7e8-4e43-a3cc-3b945d58b4e4")
+		(uuid "48660da5-a7e8-4e43-a3cc-3b945d58b4e5")
 		(property "Reference" "C4"
 			(at 36.322 173.99 0)
 			(effects
@@ -5782,10 +5511,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "320fba9b-55c0-4b86-90a0-9acafbf4d6a6")
+			(uuid "320fba9b-55c0-4b86-90a0-9acafbf4d6a7")
 		)
 		(pin "1"
-			(uuid "72aeafe9-55f6-452a-974b-c3f72075bbd2")
+			(uuid "72aeafe9-55f6-452a-974b-c3f72075bbd3")
 		)
 		(instances
 			(project "garden_guard"
@@ -5805,7 +5534,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "48660da5-a7e8-4e43-a3cc-3b945d58b4e4")
+		(uuid "48660da5-a7e8-4e43-a3cc-3b945d58b4e6")
 		(property "Reference" "C7"
 			(at 121.412 175.26 0)
 			(effects
@@ -5942,10 +5671,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "320fba9b-55c0-4b86-90a0-9acafbf4d6a6")
+			(uuid "320fba9b-55c0-4b86-90a0-9acafbf4d6a8")
 		)
 		(pin "1"
-			(uuid "72aeafe9-55f6-452a-974b-c3f72075bbd2")
+			(uuid "72aeafe9-55f6-452a-974b-c3f72075bbd4")
 		)
 		(instances
 			(project "garden_guard"
